@@ -27,7 +27,7 @@ if uploaded_file is not None:
     #Split
     text_splitter = RecursiveCharacterTextSplitter(
         # Set a really small chunk size, just to show.
-        chunk_size = 300,
+        chunk_size = 1000,
         chunk_overlap  = 20,
         length_function = len,
         is_separator_regex = False,
@@ -39,7 +39,7 @@ if uploaded_file is not None:
 
     # load it into Chroma
     db = Chroma.from_documents(texts, embeddings_model)
-    print("db : ",db)
+
     #Question
     st.header("PDF에게 질문해보세요!!")
     question = st.text_input('질문을 입력하세요')
@@ -47,6 +47,13 @@ if uploaded_file is not None:
     if st.button('질문하기'):
         with st.spinner('Wait for it...'):
             llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
-            qa_chain = RetrievalQA.from_chain_type(llm,retriever=db.as_retriever())
-            result = qa_chain({"query": question})
+            
+            
+            qa_chain = RetrievalQA.from_chain_type(llm,retriever=db.as_retriever(), return_source_documents=True)
+            
+            result = qa_chain.invoke({"query": question})
+            print(result['source_documents'])
             st.write(result["result"])
+
+
+

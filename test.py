@@ -12,7 +12,7 @@ from model import pdf_to_document
 # Load .env 
 from dotenv import load_dotenv
 load_dotenv()
-
+        
 #Loader
 loader = PyPDFLoader("book.pdf")
 pages = loader.load_and_split()
@@ -37,6 +37,7 @@ db = Chroma.from_documents(texts, embeddings_model)
 #Question
 question = "아내가 먹고 싶어하는 음식은 무엇이야?"
 llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
-qa_chain = RetrievalQA.from_chain_type(llm,retriever=db.as_retriever())
+qa_chain = RetrievalQA.from_chain_type(llm,retriever=db.as_retriever(), return_source_documents=True)
 result = qa_chain.invoke({"query": question})
+print(result['source_documents'])
 print(result)
