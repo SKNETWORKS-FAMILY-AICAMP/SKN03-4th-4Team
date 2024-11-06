@@ -1,6 +1,7 @@
 # SKN03-4th-4Team
 Team Name : 머니 위버 (Money Weavers)
-
+</br>
+</br>
 # 팀원
 
 |  이름  	| 역 할 	|     Github    	|
@@ -12,10 +13,15 @@ Team Name : 머니 위버 (Money Weavers)
 | 유혜린 	| 팀원  	| @Lerini98     	|
 | 정해린 	| 팀원  	| @junghl11     	|
 
+</br>
+</br>
 
 # LLM을 연동한 내외부 문서 기반 질의응답 시스템
 
 다양한 문서를 대상으로 질의응답을 수행하는 LLM 기반 챗봇입니다. **LangChain** 에이전트를 활용하여 사용자 질문에 대한 정확하고 신속한 답변을 제공합니다.
+
+</br>
+</br>
 
 ## 목차
 
@@ -33,9 +39,15 @@ Team Name : 머니 위버 (Money Weavers)
   - [API 사용 예시](#api-사용-예시)
   - [Python 코드에서 사용](#python-코드에서-사용)
 
+</br>
+</br>
+
 ## 소개
 
 이 프로젝트는 **LangChain** 에이전트를 활용하여 데이터베이스의 내부 및 외부 문서에 대한 질의응답을 처리하는 챗봇을 개발합니다. 대용량의 문서를 효율적으로 처리하고, 사용자에게 정확한 정보를 제공합니다.
+
+</br>
+</br>
 
 ## 기능
 
@@ -44,6 +56,9 @@ Team Name : 머니 위버 (Money Weavers)
 - **자연어 이해**: LLM을 활용하여 자연어로 표현된 질문을 이해합니다.
 - **확장성**: 새로운 문서나 데이터 소스를 손쉽게 추가할 수 있습니다.
 - **RAG (Retrieval-Augmented Generation)**: LLM이 답변할 수 없는 질문에 대해 검색을 통해 답변을 제공합니다.
+
+</br>
+</br>
 
 ## 기술 스택
 
@@ -68,6 +83,9 @@ Team Name : 머니 위버 (Money Weavers)
 
 - **문서 파싱**: `pdfloader`, `docx2txt`
 - **토큰화**: HuggingFace 모델 및 토크나이저
+
+</br>
+</br>
 
 ## 설치
 
@@ -112,6 +130,9 @@ Team Name : 머니 위버 (Money Weavers)
    OPENAI_API_KEY=your_openai_api_key
    ```
 
+</br>
+</br>
+
 ## 사용법
 
 ### 문서 추가
@@ -135,6 +156,9 @@ streamlit run main.py
 ```bash
 docker-compose up -d
 ```
+
+</br>
+</br>
 
 ## 예시
 
