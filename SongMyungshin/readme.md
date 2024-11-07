@@ -18,7 +18,7 @@
 
 - 대화 체인 구성
 
-> 단순히 RetrievalQA 체인을 생성하여 질문에 답변 -> ConversationalRetrievalChain을 사용하여 대화형으로 질문을 처리할 수 있도록 구성(이 체인은 ConversationBufferMemory를 사용해 대화 이력을 관리하며, MMR (Maximal Marginal Relevance) 검색을 통해 보다 관련성 높은 응답을 제공)
+> 단순히 RetrievalQA 체인을 생성하여 질문에 답변 -> ConversationalRetrievalChain을 사용하여 대화형으로 질문을 처리할 수 있도록 구성(이 체인은 ConversationBufferMemory를 사용해 대화 이력을 관리하며, MMR (Maximal Marginal Relevance) 검색을 통해 보다 **관련성 높은 응답을 제공**)
 
 - 추가 기능 - tiktoken을 사용하여 텍스트의 토큰 수를 계산하는 기능을 제공합니다. 이를 통해 문서를 효율적으로 청크로 나누고, 대화 흐름을 Streamlit의 대화형 UI로 관리할 수 있도록 개선
 
