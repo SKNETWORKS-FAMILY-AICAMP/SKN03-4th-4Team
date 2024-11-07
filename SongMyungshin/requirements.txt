@@ -1,0 +1,15 @@
+streamlit
+tiktoken
+loguru
+python-dotenv
+langchain
+langchain_community
+pypdf
+sentence-transformers
+faiss-cpu
+openai
+
+unstructured
+docx2txt
+langchain
+chromadb
