@@ -29,11 +29,9 @@ LLM 기반 PDF 채팅 프로그램
 문제점 1. streamlit을 적용하는 과정에서 답이 나오지 않는 문제
 
 - streamlit 적용 전
-  
   ![image-1](https://github.com/user-attachments/assets/84862c6b-e57d-4162-8414-0dab7deeaea8)
 
 - streamlit 적용 후
-  
   ![image-2](https://github.com/user-attachments/assets/07ebe394-fa07-49a5-85aa-5e40150783be)
 
 - 문제점 확인
@@ -43,12 +41,10 @@ LLM 기반 PDF 채팅 프로그램
 질문에 대한 내용이 포함되어 있지 않는 문제를 발견함
 
 - 해결과정
-
   ![image](https://github.com/user-attachments/assets/6c22aecc-b9b1-4ded-b804-dd5dc3401f40)
-
   위의 코드를 사용하면 질문을 입력한 후에 반환된 결과에서 내용을 검토할 수 있음
 
-  이를 통해 검색된 문서들이 질문과 적절한 연관성을 가지는지 평가할 수 있음
+      이를 통해 검색된 문서들이 질문과 적절한 연관성을 가지는지 평가할 수 있음
 
 - 해결 방법
 

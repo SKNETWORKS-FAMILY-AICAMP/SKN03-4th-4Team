@@ -219,19 +219,6 @@ print(response.json()["answer"])
 
 ![image](img/LangChain_save_model.png)
 
-![alt text](img/image.png)
-
-![alt text](img/image-1.png)
-
-- 특징:
-  - 검색이 필요하면 웹 검색 결과를, 검색이 필요없으면 LLM의 결과가 나옴
-    - 검색 필요 여부 판단은 LLM이 판단
-  - 단순 모델이라 프롬프트에 따라 결과 퀄리티가 천차만별
-  - 과거 이력 메모리 기능 적용
-  - 초반 로드에 시간이 걸리는 편이고, 편차가 심한 편
-    - 짧으면 1초 내외, 느린 경우엔 10초까지도 걸림
-    - 네트워크 환경과, API 인증부분에서 오래 걸리는 것으로 판단됨
-
 </br></br>
 
 # 기초 모델
@@ -304,11 +291,3 @@ Now, LangChain version is
 [LangChain 한국어 튜토리얼 github](https://github.com/teddylee777/langchain-kr)
 
 [LangChain 한국어 튜토리얼 wikidocs](https://wikidocs.net/book/14314)
-
-</br>
-
-# 느낀점
-
-에러가 꽤 많이 발생했으나 대부분이 업데이트 관련 에러라 단순 디버깅으로 해결 가능한 수준이었으며, 업데이트가 진행되면서 없던 에러가 생기거나 있었던 에러가 없어지면서 발생하는 코드 충돌 등이 있어서 업데이트마다 번거로운 부분이 있습니다.
-
-LangGraph의 node 조절하면서 원하는 기능을 확대하거나 반대로 제한하는 방법들이 코드가 아닌 단순 구조로 가능한 부분이 흥미로워서 기능적인 확장보단 node 조합, 조립으로 많이 탐구한 프로젝트가 되었습니다.

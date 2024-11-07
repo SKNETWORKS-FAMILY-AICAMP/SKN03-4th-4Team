@@ -214,10 +214,6 @@ print(response.json()["answer"])
 <br/><br/>
 
 
-### 📌 아키텍처
-<img width="857" alt="스크린샷 2024-11-07 오전 11 44 41" src="https://github.com/user-attachments/assets/296bfbe0-a446-44e3-86d4-a18521a64c2d">
-
-
 **UI**
 
 <table>
