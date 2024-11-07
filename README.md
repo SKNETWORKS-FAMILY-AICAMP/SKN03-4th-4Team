@@ -2,6 +2,13 @@
 
 다양한 문서를 대상으로 질의응답을 수행하는 LLM 기반 챗봇입니다. **LangChain** 에이전트를 활용하여 사용자 질문에 대한 정확하고 신속한 답변을 제공합니다.
 
+# Members MD dir
+[SE](./SE/README.md)
+[SE](./Lerini/README.md)
+[SE](./haerin/README.md)
+
+
+
 ## 목차
 
 - [소개](#소개)
