@@ -219,6 +219,19 @@ print(response.json()["answer"])
 
 ![image](img/LangChain_save_model.png)
 
+![alt text](img/image.png)
+
+![alt text](img/image-1.png)
+
+- 특징:
+  - 검색이 필요하면 웹 검색 결과를, 검색이 필요없으면 LLM의 결과가 나옴
+    - 검색 필요 여부 판단은 LLM이 판단
+  - 단순 모델이라 프롬프트에 따라 결과 퀄리티가 천차만별
+  - 과거 이력 메모리 기능 적용
+  - 초반 로드에 시간이 걸리는 편이고, 편차가 심한 편
+    - 짧으면 1초 내외, 느린 경우엔 10초까지도 걸림
+    - 네트워크 환경과, API 인증부분에서 오래 걸리는 것으로 판단됨
+
 </br></br>
 
 # 기초 모델
