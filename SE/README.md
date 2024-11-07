@@ -304,3 +304,11 @@ Now, LangChain version is
 [LangChain 한국어 튜토리얼 github](https://github.com/teddylee777/langchain-kr)
 
 [LangChain 한국어 튜토리얼 wikidocs](https://wikidocs.net/book/14314)
+
+</br>
+
+# 느낀점
+
+에러가 꽤 많이 발생했으나 대부분이 업데이트 관련 에러라 단순 디버깅으로 해결 가능한 수준이었으며, 업데이트가 진행되면서 없던 에러가 생기거나 있었던 에러가 없어지면서 발생하는 코드 충돌 등이 있어서 업데이트마다 번거로운 부분이 있습니다.
+
+LangGraph의 node 조절하면서 원하는 기능을 확대하거나 반대로 제한하는 방법들이 코드가 아닌 단순 구조로 가능한 부분이 흥미로워서 기능적인 확장보단 node 조합, 조립으로 많이 탐구한 프로젝트가 되었습니다.
