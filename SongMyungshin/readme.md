@@ -14,6 +14,8 @@
 
 - 벡터 스토어(Chroma->FAISS)
 
+> pdf 파일이 많아졌을 때를 고려하여 변경
+
 - 대화 체인 구성
 
 > 단순히 RetrievalQA 체인을 생성하여 질문에 답변 -> ConversationalRetrievalChain을 사용하여 대화형으로 질문을 처리할 수 있도록 구성(이 체인은 ConversationBufferMemory를 사용해 대화 이력을 관리하며, MMR (Maximal Marginal Relevance) 검색을 통해 보다 관련성 높은 응답을 제공)
