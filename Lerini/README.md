@@ -29,11 +29,11 @@ LLM 기반 PDF 채팅 프로그램
 문제점 1. streamlit을 적용하는 과정에서 답이 나오지 않는 문제
 
 - streamlit 적용 전
-- 
+  
   ![image-1](https://github.com/user-attachments/assets/84862c6b-e57d-4162-8414-0dab7deeaea8)
 
 - streamlit 적용 후
-- 
+  
   ![image-2](https://github.com/user-attachments/assets/07ebe394-fa07-49a5-85aa-5e40150783be)
 
 - 문제점 확인
