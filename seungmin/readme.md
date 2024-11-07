@@ -33,7 +33,7 @@
 
 3. **프로젝트 실행**:
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 ## 코드 설명
