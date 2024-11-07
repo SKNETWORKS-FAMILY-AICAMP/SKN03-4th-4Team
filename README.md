@@ -1,9 +1,9 @@
 # 팀원
 
-|  이름  	| 역 할 	| MD dir |    Github    	|
+|  이름  	| 역 할 	| README dir |    Github    	|
 |:------:	|:-----:	|:-----:	|:------------- 	|
 | 김성은 	| 팀장  	| [SE](./SE/README.md) | @cocoailjuice     |
-| 김종식 	| 팀원  	|  | @whdtlr98     	|
+| 김종식 	| 팀원  	| [whdtlr98](./whdtlr98/README.md) | @whdtlr98     	|
 | 송명신 	| 팀원  	|  | @SongMyungshin   	|
 | 오승민 	| 팀원  	|  | @artemIntellectus	|
 | 유혜린 	| 팀원  	| [Lerini](./Lerini/README.md) | @Lerini98     	|
