@@ -10,6 +10,18 @@
 
 [haerin](./haerin/README.md)
 
+# 팀원
+
+|  이름  	| 역 할 	|     Github    	|
+|:------:	|:-----:	|:------------- 	|
+| 김성은 	| 팀장  	| @cocoailjuice     |
+| 김종식 	| 팀원  	| @whdtlr98     	|
+| 송명신 	| 팀원  	| @SongMyungshin   	|
+| 오승민 	| 팀원  	| @artemIntellectus	|
+| 유혜린 	| 팀원  	| @Lerini98     	|
+| 정해린 	| 팀원  	| @junghl11     	|
+
+</br>
 
 
 ## 목차
