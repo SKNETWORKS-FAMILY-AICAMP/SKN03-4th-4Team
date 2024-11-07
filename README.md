@@ -10,21 +10,21 @@ LLM 기반 PDF 채팅 프로그램
 
 > LLM을 활용해 PDF 파일의 내용을 읽고, 사용자가 자연어로 질문을 하면 해당 PDF 내용에 기반한 답변을 제공하는 프로그램 개발
 
-### 주요 기능 설명
+### 📌주요 기능 설명
 
 - **파일 업로드 기능** : 사용자로부터 PDF 파일을 업로드받아 텍스트로 변환하는 기능.
 - **문서 텍스트 분할 및 임베딩** : PDF 내용을 처리 가능한 작은 텍스트 조각으로 나눈 후 임베딩하여 검색 성능을 최적화.
 - **질문 응답 기능** : 사용자가 입력한 질문에 대해 PDF 내용에서 관련 정보를 찾아 응답하는 기능.
 
-### 전체 구조
+### 📌전체 구조
 
 ![mini structure-1](https://github.com/user-attachments/assets/f0a5edc4-8f2e-42a3-9476-beb5f6bd9ad2)
 
-### 구현
+### 📌구현 화면
 
 ![image-6](https://github.com/user-attachments/assets/1f372c44-9ffd-4403-be0b-33a9ec2b930c)
 
-### 에러리포트
+### 📌에러리포트
 
 문제점 1. streamlit을 적용하는 과정에서 답이 나오지 않는 문제
 
@@ -48,7 +48,7 @@ LLM 기반 PDF 채팅 프로그램
 
 - 해결 방법
 
-chunk_size 를 늘림
+    chunk_size 를 늘림
 
 ![image-4](https://github.com/user-attachments/assets/49720eeb-0144-44a6-bf70-eb1137eb1d85)
 
