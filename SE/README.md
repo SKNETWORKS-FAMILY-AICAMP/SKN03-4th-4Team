@@ -3,7 +3,7 @@
 ### Team Name : DocQ
 
 </br>
-</br>
+
 # 팀원
 
 |  이름  	| 역 할 	|     Github    	|
@@ -214,3 +214,80 @@ print(response.json()["answer"])
 ```
 
 ---
+
+# 아키텍쳐(저장된 모델)
+
+![image](img/LangChain_save_model.png)
+
+</br></br>
+
+# 기초 모델
+
+![image](img/LangChain_base_model.png)
+
+</br></br>
+
+# 응용 모델
+
+![image](img/LangChain_censorship_model.png)
+
+- 특징:
+    - 검색 결과에서 적절치 않은 단어, 결과가 있는 경우 검열 처리 가능
+    - 구체적인 정보의 제공을 꺼리며, 모호하게 대답
+    - 대답 내용이 LLM 기준은 명확하게 작동하나 Web에서 가져온 정보는 매우 엄격한 기준으로 대답을 함.
+        - 진위를 알기 어렵다.
+        - 팩트 체크가 필요하다.
+        - 구체적인 정보는 OO을 방문하라.
+
+</br>
+
+![image](img/LangChain_Memory_model.png)
+
+- 특징:
+    - 외부(streamlit)에서 적용되던 메모리(Memory)를 node와 LangGraph에 적용한 모델
+    - graph compile 선언할 때, memory도 함께 선언
+    - 기초 모델에서 코드만 따졌을 때, 많은 차이가 있음
+    - Memory node에서 trimming, summary 선택 진행
+
+</br></br>
+
+![image](img/LangChain_DB_model_2.png)
+
+- 특징:
+    - LangChain의 기본 tool을 이용해서 DB 접속
+    - RAG를 이용해서 DB 검색 결과 재검색
+    - 웹 검색으로 결과 도출 시 DB에 update
+        -  DB 형식에 맞게 정보를 수정하거나 내부 state 형식에 맞게 DB를 조정 필요
+
+</br></br>
+
+# Info
+
+</br>
+
+## LangChain update
+When we learn LangChain, LangChain version is
+![LangChain](https://img.shields.io/badge/LangChain-0.3.0-orange)
+
+
+When we learn LangGraph, LangChain version is
+![LangChain](https://img.shields.io/badge/LangChain-0.3.4-orange)
+
+
+
+Now, LangChain version is 
+![LangChain](https://img.shields.io/badge/LangChain-0.3.7-orange)
+
+
+
+당장 git에 올리기 전에 작동하더라도 이후 업데이트로 작동되지 않을 가능성이 있음
+
+</br>
+
+## LangChain Kor
+
+![alt text](img/langchain_kor.png)
+
+[LangChain 한국어 튜토리얼 github](https://github.com/teddylee777/langchain-kr)
+
+[LangChain 한국어 튜토리얼 wikidocs](https://wikidocs.net/book/14314)
