@@ -1,5 +1,9 @@
 .venv
 .env
+<<<<<<< HEAD
 __pycache__
 chatbot.ipynb
 chatbot_1.ipynb
+=======
+.chroma_db
+>>>>>>> a762fa9f9050eb150ae4f02cee0766e0b7025e1c
